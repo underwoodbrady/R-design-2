@@ -13,6 +13,7 @@
 	import TitleText from '$lib/components/TitleText.svelte';
 	import Button from '$lib/components/Button.svelte';
 	import JoinMailingList from '$lib/components/JoinMailingList.svelte';
+	import { goto } from '$app/navigation';
 	export let form: ActionData;
 </script>
 
@@ -29,7 +30,9 @@
 				your existing pieces to complete set-up, take down and storage of your decor for the following
 				year.
 			</p>
-			<Button accent>Meet The Team</Button>
+			<Button accent  onClick={() => {
+				goto('/aboutus');
+			}}>Meet The Team</Button>
 		</div>
 	
 		<img src="/us.jpg" alt="Our Team" class="max-w-[520px] object-cover hidden md:block"/>
