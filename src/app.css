@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: theme('colors.black.1');
+	color: theme('colors.black.12');
+	font-family: "DM Sans";
+	overflow-x: hidden;
+}
+
+.arapey {
+	font-family: "Arapey", serif;
+}
+
+.dm-sans {
+	font-family: "DM Sans", sans-serif;
+}
+
+.crimson-text {
+	font-family: 'Crimson Text', serif;
+}
+
+.caveat {
+	font-family: 'Caveat', cursive;
+}
+
+.marcellus {
+	font-family: 'Marcellus', serif;
+}
+
+@layer components {
+	.flex-center {
+		@apply flex items-center;
+	}
+}
