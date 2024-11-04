@@ -11,27 +11,27 @@
         <TitleText text="Our Recent Work" accent marginLg/>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-md mb-xl w-full max-w-screen-xl mx-auto">
-        <div class="w-full h-[440px] bg-primary-3 overflow-hidden">
+        <div class="w-full h-[520px] bg-primary-3 overflow-hidden">
             <img src="/tree1.png" alt="Tree" class="object-cover w-full h-full"/>
         </div>
-        <div class="w-full h-[440px] bg-primary-3 overflow-hidden">
+        <div class="w-full h-[520px] bg-primary-3 overflow-hidden">
             <img src="/tree3.png" alt="Tree" class="object-cover w-full h-full"/>
             
         </div>
-        <div class="w-full h-[440px] bg-primary-3 overflow-hidden">
+        <div class="w-full h-[520px] bg-primary-3 overflow-hidden">
             <img src="/tree8.png" alt="Tree" class="object-cover w-full h-full"/>
             
         </div>
     
-        <div class="w-full h-[440px] bg-primary-3 overflow-hidden">
+        <div class="w-full h-[520px] bg-primary-3 overflow-hidden">
             <img src="/tree4.png" alt="Tree" class="object-cover w-full h-full"/>
             
         </div>
-        <div class="w-full h-[440px] bg-primary-3 overflow-hidden">
+        <div class="w-full h-[520px] bg-primary-3 overflow-hidden">
             <img src="/tree9.png" alt="Tree" class="object-cover w-full h-full"/>
             
         </div>
-        <div class="w-full h-[440px] bg-primary-3 overflow-hidden">
+        <div class="w-full h-[520px] bg-primary-3 overflow-hidden">
             <img src="/tree10.png" alt="Tree" class="object-cover w-full h-full"/>
             
         </div>

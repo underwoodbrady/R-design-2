@@ -46,17 +46,15 @@
 		<TitleText text="The Process"/>
 	<ol class="list-decimal space-y-md list-inside text-lg text-black-11">
 		<li>
-			Call <span class="text-accent-9">123-456-7890</span> or use the
-			<button class="text-accent-9 underline" on:click={()=>{ document.getElementById('bookconsultation')?.scrollIntoView();}}>Contact Us</button> form for a free consultation. We'll respond within 24 hours to discuss your needs and arrange a meeting time.
+			<span class="font-semibold">Personalized Consultation For Home or Business:</span> Use the <a class="text-accent-9 underline" href="/bookconsultation">Contact Us</a> form for a free consultation. We'll respond within 24 hours to discuss your needs and arrange a meeting time.
+
 		</li>
-		<li>Set up your personalized free consultation to discuss your holiday or party decor needs by using the form below. </li>
-		<li>We will visit your home or office to go over your design plan and assess your unique space   </li>
+		<li><span class="font-semibold">Design Planning:</span> We will visit your home or office to go over your vision, existing decor, color scheme, and budget and develop a design plan that brings your holiday vision to life.</li>
 		<li>
-			After our meeting, we will develop and propose a design plan.
+			<span class="font-semibold">Design Preparation:</span> Once the plan is approved our team will do the shopping for your decor and book your installation date, coordinating with you as needed.
 		</li>
 		<li>
-			Once the plan is approved, we'll add you to our installation calendar. Schedule early, as spots fill up quickly!
-		</li>
+			<span class="font-semibold">Installation Day:</span> Our team will safely handle the professional setup of your decor leaving you to enjoy your beautifully decorated holiday home.		</li>
 	</ol>
 	</div>
 </div>
