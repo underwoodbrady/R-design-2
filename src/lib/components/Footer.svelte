@@ -41,7 +41,7 @@
                         <div class="flex-center space-x-md text-primary-1 text-lg">
                             <Instagram class="hover:text-black-5 duration-100 transition-colors"/>
                             <Facebook class="hover:text-black-5 duration-100 transition-colors"/>
-                            <Twitter class="hover:text-black-5 duration-100 transition-colors"/>
+                            <!-- <Twitter class="hover:text-black-5 duration-100 transition-colors"/> -->
                     
                         </div>
                     </div>

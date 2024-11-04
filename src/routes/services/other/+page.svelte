@@ -10,6 +10,16 @@
 		<h4 class="text-black-11 text-2xl font-medium mb-lg">Banisters</h4>
 		<h4 class="text-black-11 text-2xl font-medium mb-lg">Doorways</h4>
 		<h4 class="text-black-11 text-2xl font-medium mb-lg">Porches</h4>
+			<h3 class="text-primary-12 text-4xl arapey font-semibold mb-lg">Year Round Services</h3>
+				<p class="text-lg text-black-11 mb-md">We offer a variety of year round services. Feel free to reach out with questions! </p>
+				<ol class="list-decimal space-y-sm list-inside text-lg text-black-11">
+		
+					<li> Service 1 </li>
+					<li>Service 2</li>
+					<li>
+						Service 3
+					</li>
+				</ol>
         <Button accent>Book A Consultation</Button>
 
 	</div>

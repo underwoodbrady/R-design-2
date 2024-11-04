@@ -8,9 +8,11 @@
 	import InputDropdown from './InputDropdown.svelte';
 	import { enhance } from '$app/forms';
 	import Check from 'virtual:icons/material-symbols/check-circle-rounded';
+	import Info from 'virtual:icons/material-symbols/info-outline-rounded';
 	import Error from 'virtual:icons/material-symbols/error-rounded';
 
 	import type { ActionData } from '../../routes/$types';
+	import TitleText from './TitleText.svelte';
 
 	export let form: ActionData;
 	let loading: boolean = false;
@@ -19,8 +21,14 @@
 
 <div class="px-lg md:px-xl">
 	<div class=" py-3xl max-w-screen-xl mx-auto" id="bookconsultation">
-		<h3 class="text-black-12 text-4xl arapey font-semibold mb-2xl">Book A Consultation</h3>
-		<div class="flex flex-col-reverse space-y-2xl md:space-y-0 md:flex-row md:space-x-3xl justify-between">
+		<TitleText text="Book A Consultation" />
+		<p class="text-lg text-black-11 mb-lg">
+			Ready to explore our seasonal staging or event planning series for your home or office?
+			Connect with our team by completing the form below and we’ll customize a plan for your space.
+		</p>
+		<div
+			class="flex flex-col-reverse space-y-2xl md:space-y-0 md:flex-row md:space-x-3xl justify-between"
+		>
 			<div class="max-w-sm">
 				<!-- <img src="/LogoSVG.svg" class="w-32 mb-xl" /> -->
 				<!-- <h4 class="font-semibold mb-md text-lg">Spruce - Seasonal Staging And Decor</h4> -->
@@ -29,13 +37,11 @@
 					<p class="text-primary-12 font-semibold mb-sm text-lg">Email Us</p>
 					<p class="text-primary-9">rachel@spruceseasonalstaging.com</p>
 					<p class="text-primary-9 mb-lg">info@spruceseasonalstaging.com</p>
-					<p class="text-primary-12 font-semibold mb-sm text-lg">Call Us</p>
-					<p class="text-primary-9 mb-lg">123-456-7890</p>
 					<p class="text-primary-12 font-semibold mb-sm text-lg">Follow Us</p>
 					<div class="flex-center space-x-md text-primary-9 text-lg">
 						<Instagram />
 						<Facebook />
-						<Twitter />
+						<!-- <Twitter /> -->
 					</div>
 				</div>
 			</div>
@@ -55,23 +61,74 @@
 					};
 				}}
 			>
+				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm">Essentials</h4>
 				<div class="flex-center flex-col md:flex-row space-y-md md:space-y-0 md:space-x-md">
 					<Input label="First Name" placeholder="First Name" required />
 					<Input label="Last Name" placeholder="Last Name" required />
 				</div>
-				<Input label="Email" placeholder="Enter Email" required />
-				<Input label="Phone" placeholder="Enter Phone" />
-				<InputLong label="What's your holiday vision?" placeholder="" required />
+				<div class="flex-center flex-col md:flex-row space-y-md md:space-y-0 md:space-x-md">
+					<Input label="Email" placeholder="Enter Email" required />
+					<Input label="Phone" placeholder="Enter Phone" />
+				</div>
 				<InputDropdown
-					label="How did you hear about us?"
+					label="What type of service would you like?"
 					placeholder="Select Option"
-					options={['Select An Option', 'Social Media', 'Word Of Mouth', 'Google Search', 'Other']}
+					options={[
+						'Just A Little Sprucing',
+						'Custom Design Tree',
+						'Custom Event Planning',
+						'Other'
+					]}
+					required
+				/>
+
+				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">
+					Your Home Or Business
+				</h4>
+
+				<Input label="Location" placeholder="Your City" required />
+				<div class="flex-center flex-col md:flex-row space-y-md md:space-y-0 md:space-x-md">
+					<Input
+						label="Size of Tree or Size of Space"
+						placeholder="Height (ft) of Tree or Size of Space (ft²)"
+					/>
+					<Input label="If an Event, How Many People?" placeholder="# of People" />
+				</div>
+
+				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">Budget/Timeline</h4>
+
+				<InputLong label="What is Your Budget and Desired Timeline?" placeholder="" required />
+
+				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">Inspiration</h4>
+				<InputDropdown
+					label="What style best aligns with your vision?"
+					placeholder="Select Option"
+					options={['Traditional', 'Elegant', 'Whimsical', 'Custom', 'Corporate', 'Other']}
+					required
+				/>
+				<div class="flex-center space-x-sm text-black-11 bg-accent-3 px-md rounded-sm py-sm">
+					<Info class="text-accent-9" />
+					<p>
+						Don't know what style you want yet? Check out our <a
+							href="/gallery"
+							class="text-accent-9 underline">portfolio here</a
+						>! Or select 'other'.
+					</p>
+				</div>
+
+				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">Project Objectives</h4>
+
+
+				<InputLong
+					label="What is The Reason you Would Like Spruce to Help you?
+"
+					placeholder=""
 				/>
 
 				{#if !formSubmitted}
 					<div class="mx-auto pt-md">
 						<div class="w-[165px]">
-							<Button extended accent {loading}>Send Message</Button>
+							<Button extended accent {loading}>Send Inquiry</Button>
 						</div>
 					</div>
 				{/if}

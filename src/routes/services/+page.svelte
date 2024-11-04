@@ -13,10 +13,10 @@
 		>
 
 			<Service text="Residential" href="/services/residential">
-				<img src="/residential1.png" alt="Residential Service" class="hover:scale-110 transition-transform duration-300"/>
+				<img src="/residential2.jpg" alt="Residential Service" class="hover:scale-110 transition-transform duration-300"/>
 			</Service>
 			<Service text="Commercial" href="/services/commercial">
-				<img src="/commercial1.png" alt="Residential Service" class="hover:scale-110 transition-transform duration-300"/>
+				<img src="/commercial2.png" alt="Residential Service" class="hover:scale-110 transition-transform duration-300"/>
 			</Service>
 			<Service text="Other Services" href="/services/other">
 				<img src="/other1.png" alt="Residential Service" class="hover:scale-110 transition-transform duration-300"/>
@@ -35,18 +35,6 @@
 					Pricing Starting at <span class="text-2xl font-medium">$350</span>
 				</p>
 			</div> -->
-		</div>
-		<div class="mb-3xl">
-		<h3 class="text-primary-12 text-4xl arapey font-semibold mb-lg">Year Round Services</h3>
-			<p class="text-lg text-black-11 mb-md">We offer a variety of year round services. Feel free to reach out with questions! </p>
-			<ol class="list-decimal space-y-sm list-inside text-lg text-black-11">
-	
-				<li> Service 1 </li>
-				<li>Service 2</li>
-				<li>
-					Service 3
-				</li>
-			</ol>
 		</div>
 		<div class="relative z-10 flex justify-center">
 			<Button

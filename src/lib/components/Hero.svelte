@@ -32,7 +32,7 @@
     </div>
 
     <div class="hidden md:block absolute inset-0 overflow-hidden ">
-		<img src="tempbg.jpg" alt="Staging" class="absolute w-full h-full object-cover" />
+		<img src="/tempbg2.jpg" alt="Staging" class="absolute w-full h-full object-cover" />
 		<div class="absolute w-full h-full bg-black/45"/>
 	</div>
 </div>
