@@ -89,15 +89,15 @@
 				<Input label="Location" placeholder="Your City" required />
 				<div class="flex-center flex-col md:flex-row space-y-md md:space-y-0 md:space-x-md">
 					<Input
-						label="Size of Tree or Size of Space"
+						label="Size of tree or size of space"
 						placeholder="Height (ft) of Tree or Size of Space (ft²)"
 					/>
-					<Input label="If an Event, How Many People?" placeholder="# of People" />
+					<Input label="If an event, how many people?" placeholder="# of People" />
 				</div>
 
 				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">Budget/Timeline</h4>
 
-				<InputLong label="What is Your Budget and Desired Timeline?" placeholder="" required />
+				<InputLong label="What is your budget and desired timeline?" placeholder="" required />
 
 				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">Inspiration</h4>
 				<InputDropdown
@@ -112,7 +112,7 @@
 						Don't know what style you want yet? Check out our <a
 							href="/gallery"
 							class="text-accent-9 underline">portfolio here</a
-						>! Or select 'other'.
+						>! Or select 'other'. 
 					</p>
 				</div>
 
@@ -120,7 +120,7 @@
 
 
 				<InputLong
-					label="What is The Reason you Would Like Spruce to Help you?
+					label="What is the reason you would like spruce to help you?
 "
 					placeholder=""
 				/>
