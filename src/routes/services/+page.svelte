@@ -2,11 +2,12 @@
 	import { goto } from '$app/navigation';
 	import Button from '$lib/components/Button.svelte';
 	import Service from '$lib/components/Service.svelte';
+	import TitleText from '$lib/components/TitleText.svelte';
 </script>
 
 <div class="px-lg md:px-xl py-3xl  bg-accent-2">
 	<div class="max-w-screen-lg mx-auto ">
-		<h3 class="text-primary-12 text-4xl arapey font-semibold mb-lg text-center">Our Services</h3>
+		<TitleText text="Our Services" textCenter/>
 		<p class="text-lg text-black-11 mb-2xl text-center">Whether you need something to spruce up your office or home, we got you covered</p>
 		<div
 			class="relative z-10 flex-center flex-col md:flex-row space-y-lg md:space-y-0 md:space-x-md mb-3xl"

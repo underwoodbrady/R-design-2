@@ -20,9 +20,14 @@
 </script>
 
 <div class="px-lg md:px-xl">
-	<div class=" py-3xl max-w-screen-xl mx-auto" id="bookconsultation">
+	<div class=" pt-3xl pb-xl max-w-screen-xl mx-auto" id="bookconsultation">
 		<TitleText text="Book A Consultation" />
-		<p class="text-lg text-black-11 mb-lg">
+	</div>
+</div>
+<div class="w-full bg-black-3 h-[660px]"></div>
+<div class="px-lg md:px-xl">
+	<div class="pt-xl pb-3xl max-w-screen-xl mx-auto">
+		<p class="text-lg text-black-11 mb-xl">
 			Ready to explore our seasonal staging or event planning series for your home or office?
 			Connect with our team by completing the form below and we’ll customize a plan for your space.
 		</p>
@@ -112,12 +117,13 @@
 						Don't know what style you want yet? Check out our <a
 							href="/gallery"
 							class="text-accent-9 underline">portfolio here</a
-						>! Or select 'other'. 
+						>! Or select 'other'.
 					</p>
 				</div>
 
-				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">Project Objectives</h4>
-
+				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">
+					Project Objectives
+				</h4>
 
 				<InputLong
 					label="What is the reason you would like spruce to help you?

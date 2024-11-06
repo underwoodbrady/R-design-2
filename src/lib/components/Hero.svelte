@@ -16,7 +16,7 @@
                 Available Now Holiday 2024
             </h2>
             <h3 class="arapey font-semibold text-black-1 md:text-primary-1 text-3xl md:text-5xl leading-tight mb-2xl md:mb-xl max-w-screen-md">
-                Let Spruce take the hassle out your holiday by handling all of your decorating needs
+                Let Spruce take the hassle out of your holiday by handling all of your decorating needs
             </h3>
             <div class="flex-center flex-col md:flex-row space-y-md md:space-y-0 md:space-x-md">
                 <Button

@@ -21,7 +21,7 @@
 <div class=" px-lg md:px-xl md:my-4xl bg-accent-3 md:max-h-[520px] overflow-hidden">
 	<div class="max-w-screen-lg mx-auto flex flex-col md:flex-row space-x-3xl">
 		<div class="py-3xl">
-			<TitleText text="About Us" />
+			<TitleText text="About Us" accent />
 			<p class="text-lg text-black-11 mb-lg">
 				We are a full-service seasonal staging and design team bringing the magic of the holidays to
 				your home or office. From fully decorated custom Christmas trees, mantles, banisters and
@@ -44,7 +44,7 @@
 
 <div class=" px-lg md:px-xl md:pb-4xl md:pt-0 pb-3xl pt-3xl">
 	<div class="max-w-screen-lg mx-auto">
-		<TitleText text="The Process" />
+		<TitleText text="The Process" marginLg/>
 		<ol class="space-y-lg text-lg text-black-11 mt-xl">
 			<li class="flex-center space-x-lg">
 				<div class="flex-center justify-center min-w-11 h-11 rounded-full bg-primary-3">
@@ -89,7 +89,7 @@
 	</div>
 </div>
 <Gallery />
-<JoinMailingList />
+<JoinMailingList {form}/>
 
 <!-- <BookConsultation {form}/> -->
 <!-- <Services /> -->
