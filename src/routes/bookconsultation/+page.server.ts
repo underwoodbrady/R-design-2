@@ -8,13 +8,13 @@ export const actions = {
 		const lastName = data.get('Last Name');
 		const email = data.get('Email');
 		const phone = data.get('Phone') || "empty";
-		const serviceType = data.get('What type of service would you like?') || "empty";
-		const location = data.get('Location') || "empty";
-		const sizeOfSpace = data.get('Size of Tree or Size of Space') || "empty";
-		const numberPeople = data.get('If an Event, How Many People?') || "empty";
-		const budgetTimeline = data.get('What is Your Budget and Desired Timeline?') || "empty";
-		const style = data.get('What style best aligns with your vision?') || "empty";
-		const objective = data.get('What is The Reason you Would Like Spruce to Help you?') || "empty";
+		const serviceType = data.get('type') || "empty";
+		const location = data.get('location') || "empty";
+		const sizeOfSpace = data.get('size') || "empty";
+		const numberPeople = data.get('numpeople') || "empty";
+		const budgetTimeline = data.get('budget') || "empty";
+		const style = data.get('style') || "empty";
+		const objective = data.get('reason') || "empty";
 
 		const result = await sendEmail(
 			'New Consultation Request | spruceseasonalstaging.com',

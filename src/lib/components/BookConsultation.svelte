@@ -78,6 +78,7 @@
 					<Input label="Phone" placeholder="Enter Phone" />
 				</div>
 				<InputDropdown
+				name="type"
 					label="What type of service would you like?"
 					placeholder="Select Option"
 					options={[
@@ -93,21 +94,26 @@
 					Your Home Or Business
 				</h4>
 
-				<Input label="Location" placeholder="Your City" required />
+				<Input 				name="location"
+ 				label="Location" placeholder="Your City" required />
 				<div class="flex-center flex-col md:flex-row space-y-md md:space-y-0 md:space-x-md">
 					<Input
+					name="size"
+
 						label="Size of tree or size of space"
 						placeholder="Height (ft) of Tree or Size of Space (ft²)"
 					/>
-					<Input label="If an event, how many people?" placeholder="# of People" />
+					<Input 				name="numpeople"
+ 					label="If an event, how many people?" placeholder="# of People" />
 				</div>
 
 				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">Budget/Timeline</h4>
 
-				<InputLong label="What is your budget and desired timeline?" placeholder="" required />
+				<InputLong name="budget" label="What is your budget and desired timeline?" placeholder="" required />
 
 				<h4 class="arapey font-semibold text-3xl text-primary-12 mb-sm pt-md">Inspiration</h4>
 				<InputDropdown
+					name="style"
 					label="What style best aligns with your vision?"
 					placeholder="Select Option"
 					options={['Traditional', 'Elegant', 'Whimsical', 'Custom', 'Corporate', 'Other']}
@@ -128,6 +134,8 @@
 				</h4>
 
 				<InputLong
+				name="reason"
+
 					label="What is the reason you would like spruce to help you?
 "
 					placeholder=""
