@@ -4,9 +4,9 @@
 </script>
 
 <div class="px-xl py-3xl">
-	<div class="max-w-screen-xl mx-auto mb-[500px]">
+	<div class="max-w-screen-xl mx-auto">
 		<TitleText text="Residential Services" /> <!-- Primary Header -->
-		<img src="/update1.jpg" alt="Tree" class="float-right"/>
+		<img src="/update1.jpg" alt="Tree" class="hidden md:block float-right"/>
 		<h3 class="text-primary-12 text-4xl arapey font-semibold mb-lg">Consultation</h3> <!-- Subheader Text -->
 		<p class="text-black-11 text-lg mb-md">
 			To Discuss:
