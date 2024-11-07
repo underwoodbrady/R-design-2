@@ -6,7 +6,8 @@
 <div class="px-xl py-3xl">
 	<div class="max-w-screen-xl mx-auto mb-[500px]">
 		<TitleText text="Commercial Services" /> <!-- Primary Header -->
-		
+		<img src="/update2.jpg" alt="Tree" class="float-right"/>
+
 		<h3 class="text-primary-12 text-4xl arapey font-semibold mb-lg">The Consultation</h3> <!-- Subheader Text -->
 		<p class="text-black-11 text-lg mb-md">
 			To Discuss:

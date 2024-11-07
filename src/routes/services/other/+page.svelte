@@ -6,7 +6,8 @@
 <div class="px-xl py-3xl">
 	<div class="max-w-screen-xl mx-auto">
 		<TitleText text="Our Other Services" /> <!-- Primary Header -->
-		
+		<img src="/other23.jpg" alt="Tree" class="float-right"/>
+
 		<h3 class="text-primary-12 text-4xl arapey font-semibold mb-lg">A Spruce For All Seasons</h3> <!-- Subheader Text -->
 		<p class="text-lg text-black-11 mb-lg">
 			Spring, summer, valentines, thanksgiving, airbnbs
