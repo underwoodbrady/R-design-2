@@ -24,7 +24,7 @@
 		<TitleText text="Book A Consultation" />
 	</div>
 </div>
-<div class="w-full bg-black-3 h-[660px] overflow-hidden">
+<div class="w-full bg-black-3 h-[620px] overflow-hidden">
 	<img src="/contact.jpg" alt="Holiday Decor" class="w-full h-full object-cover"/>
 </div>
 <div class="px-lg md:px-xl">

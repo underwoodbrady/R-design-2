@@ -1,4 +1,5 @@
 <script>
+	import { goto } from "$app/navigation";
 	import Button from "$lib/components/Button.svelte";
 
 
@@ -17,7 +18,9 @@
 				your existing pieces to complete set-up, take down and storage of your decor for the following
 				year.
 			</p>
-			<Button accent>Meet The Team</Button>
+			<Button accent onClick={()=>{
+				goto("/bookconsultation");
+			}}>Book A Consultation</Button>
 		</div>
 	
 		<img src="/us.jpg" alt="Our Team" class="max-h-[480px] object-cover hidden md:block"/>

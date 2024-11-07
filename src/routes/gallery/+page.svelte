@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Button from '$lib/components/Button.svelte';
+	import GalleryScroll from '$lib/components/GalleryScroll.svelte';
 	import Check from 'virtual:icons/material-symbols/check-small-rounded';
 
 	let options: string[] = ['Traditional', 'Elegant', 'Whimsical', 'Custom', 'Corporate'];
@@ -32,7 +33,9 @@
 	}
 </script>
 
-<div class="px-lg md:px-xl">
+<GalleryScroll/>
+
+<!-- <div class="px-lg md:px-xl">
 
 <div class=" py-3xl max-w-screen-xl mx-auto ">
 	<div class="h-[720px] overflow-y-auto mb-3xl">
@@ -118,4 +121,4 @@
   scrollbar-width: thin;  /* "auto" or "thin" */
   scrollbar-color: rgba(0, 0, 0, 0.5) transparent;  /* thumb and track color */
 }
-</style>
+</style> -->

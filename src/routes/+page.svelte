@@ -14,6 +14,7 @@
 	import Button from '$lib/components/Button.svelte';
 	import JoinMailingList from '$lib/components/JoinMailingList.svelte';
 	import { goto } from '$app/navigation';
+	import GalleryScroll from '$lib/components/GalleryScroll.svelte';
 	export let form: ActionData;
 </script>
 
@@ -88,7 +89,7 @@
 		</ol>
 	</div>
 </div>
-<Gallery />
+<GalleryScroll/>
 <JoinMailingList {form}/>
 
 <!-- <BookConsultation {form}/> -->
