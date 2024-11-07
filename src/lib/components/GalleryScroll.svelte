@@ -10,6 +10,8 @@ let isDragging = false;
 let startX: number;
 let scrollLeft: number;
 
+export let title:string = "Our Work";
+
 function handleMouseDown(e: MouseEvent) {
     if (!scrollContainer) return;
     isDragging = true;
@@ -57,7 +59,7 @@ onMount(() => {
 </script>
 <div class="px-lg md:px-xl py-2xl md:py-3xl bg-accent-3">
 	<div class="max-w-screen-lg mx-auto mb-xl">
-        <TitleText text="Our Work" textCenter marginLg/>
+        <TitleText text={title} textCenter marginLg/>
 		<div class="relative">
 			<div
 				id="scroll"

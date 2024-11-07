@@ -33,7 +33,7 @@
 	}
 </script>
 
-<GalleryScroll/>
+<GalleryScroll title="Gallery"/>
 
 <!-- <div class="px-lg md:px-xl">
 
