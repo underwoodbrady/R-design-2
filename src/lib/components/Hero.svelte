@@ -13,7 +13,7 @@
         </div>
         <div class="relative z-20 w-full text-center flex-center flex-col justify-center">
             <h2 class="text-accent-5 md:text-ccent-5 text-lg md:text-xl font-semibold uppercase mb-sm md:mb-sm">
-                Available Now Holiday 2024
+                Holiday 2024
             </h2>
             <h3 class="arapey font-semibold text-black-1 md:text-primary-1 text-3xl md:text-5xl leading-tight mb-2xl md:mb-xl max-w-screen-md">
                 Let Spruce take the hassle out of your holiday by handling all of your decorating needs
